@@ -1,0 +1,12 @@
+{
+  "offers":[
+    {
+      "id":1,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/Abnaa_syria_logo_637370057156678707.jpg",
+      "name":"Abnaa Syria",
+      "money":"50 EGP",
+      "pers":"50%",
+      "date":"1/1/2023"
+    }
+  ]
+  }

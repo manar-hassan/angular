@@ -1,0 +1,29 @@
+<div [(ngModel)]="item" >
+<div class="d-flex justify-content-between " >
+<h2 mat-dialog-title style="color: rgb(255, 90, 0);">{{item.name}}</h2>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>  <img src="https://www.talabat.com/assets/images/search-close.svg" alt="" width="10px" height="10px"></button>
+
+</mat-dialog-actions>
+</div>
+
+<mat-dialog-content class="mat-typography">
+  <div class="modal-body" *ngFor="let i of item">
+    <div class="pt-0">
+      <div class="offer-detailsstyles__OfferContainer-sc-1p0l8ur-0 hYfdQK">
+        <div class="d-flex align-items-center clickable mb-m-4 offer-item">
+            <div class="d-flex ml-1 justify-content-between align-items-center details">
+              <div class="mr-2">
+                <p class="f-18 f-500">Get {{i.money}} off on specific items</p>
+                <p class="f-14">This discount is valid on selected items from up to {{i.pers}} off offers section, the offer is valid until {{i.date}}</p>
+                <p class="primary-text f-500">Price on Selection</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</mat-dialog-content>
+
+</div>

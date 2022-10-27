@@ -1,0 +1,29 @@
+{
+  "promotions":[
+    {
+      "id":1,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/logo_637359161564663035.jpg",
+      "name":"7 Days Crepe"
+    },
+    {
+      "id":2,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/200_636894155802328347.jpg",
+      "name":"4 Seasons Crepe"
+    },
+    {
+      "id":3,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/3eish3w_Mal7_logo_636947284342649155.jpg",
+      "name":"3eish w Mal7"
+    },
+    {
+      "id":4,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/e4cc_sqp.jpg?v=20180806095813",
+      "name":"3B Burger"
+    },
+    {
+      "id":5,
+      "img":"https://images.deliveryhero.io/image/talabat/restaurants/Logo_637108065159628345.png",
+      "name":"1000 Hana"
+    }
+  ]
+}
